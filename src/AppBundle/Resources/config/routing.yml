@@ -1,0 +1,684 @@
+frontend_log:
+    path: /frontend-log
+    defaults: { _controller: 'AppBundle:Home:frontendLog' }
+    methods: [POST]
+    options:
+        expose: true
+
+twitter_service:
+    resource: "@AppBundle/Controller/TwitterController.php"
+    type: annotation
+
+influencing_security:
+    resource: "@AppBundle/Resources/config/routing_security.yml"
+
+influencing_newsroom:
+    resource: "@AppBundle/Controller/Newsroom/"
+    type: annotation
+
+influencing_google:
+    resource: "@AppBundle/Controller/GoogleSheetsController.php"
+    type: annotation
+
+report_coverage_routes:
+    resource: "@AppBundle/Controller/Report/ReportCoverageController.php"
+    type: annotation
+
+influencing_account:
+    resource: "@AppBundle/Controller/AccountController.php"
+    type: annotation
+
+influencing_airtable:
+    resource: "@AppBundle/Controller/AirtableController.php"
+    type: annotation
+
+influencing_community:
+    resource: "@AppBundle/Controller/CommunitiesController.php"
+    type: annotation
+
+influencing_datascouting:
+    resource: "@AppBundle/Controller/Api/ApiDatascoutingController.php"
+    type: annotation
+
+influencing_journo:
+    resource: "@AppBundle/Controller/JournalistController.php"
+    type: annotation
+
+influencing_microsoft:
+    resource: "@AppBundle/Controller/MicrosoftAPIController.php"
+    type: annotation
+
+influencing_api:
+    resource: "@AppBundle/Controller/Api/"
+    type: annotation
+
+chrome_notifier:
+    resource: "@AppBundle/Controller/ChromeNotifierController.php"
+    type: annotation
+
+influencing_person:
+    resource: "@AppBundle/Resources/config/routing_person.yml"
+    prefix:   /person
+
+influencing_outlet:
+    resource: "@AppBundle/Resources/config/routing_outlet.yml"
+    prefix:   /outlet
+
+influencing_options:
+    resource: "@AppBundle/Resources/config/routing_options.yml"
+    prefix:   /options
+
+influencing_company:
+    resource: "@AppBundle/Resources/config/routing_company.yml"
+    prefix:   /newsroom/{slug}
+
+influencing_company_new:
+    resource: "@AppBundle/Resources/config/routing_company_new.yml"
+    prefix:   /newsroom_new/{slug}
+
+influencing_business:
+    resource: "@AppBundle/Resources/config/routing_business.yml"
+    prefix:   /mycompany
+
+influencing_profile:
+    resource: "@AppBundle/Resources/config/routing_profile.yml"
+    prefix: /profile
+
+influencing_coverage:
+    resource: "@AppBundle/Resources/config/routing_coverage.yml"
+    prefix: /coverage
+
+influencing_announcement:
+    resource: "@AppBundle/Controller/AnnouncementController.php"
+    type: "annotation"
+
+influencing_request:
+    resource: "@AppBundle/Resources/config/routing_requests.yml"
+    prefix: /request
+
+influencing_content:
+    resource: "@AppBundle/Resources/config/routing_content.yml"
+    prefix: /content
+
+influencing_mailing:
+    resource: "@AppBundle/Resources/config/routing_mailing.yml"
+    prefix: /mailing
+
+influencing_lists:
+    resource: "@AppBundle/Resources/config/routing_lists.yml"
+    prefix: /influencers/lists
+
+influencing_target:
+    resource: "@AppBundle/Resources/config/routing_target.yml"
+    prefix: /target
+    
+influencing_objects:
+    resource: "@AppBundle/Resources/config/routing_objects.yml"
+    prefix: /objects
+
+influencing_worksheets:
+    resource: "@AppBundle/Resources/config/routing_worksheet.yml"
+    prefix: /worksheets
+
+influencing_opportunities:
+    resource: "@AppBundle/Resources/config/routing_opportunities.yml"
+    prefix: /opportunities
+
+influencing_settings:
+    resource: "@AppBundle/Resources/config/routing_settings.yml"
+    prefix: /settings
+
+influencing_chat:
+    resource: "@AppBundle/Resources/config/routing_chat.yml"
+    prefix: /chat
+
+influencing_jobs:
+    resource: "@AppBundle/Resources/config/routing_jobs.yml"
+
+influencing_social:
+    resource: "@AppBundle/Resources/config/routing_social.yml"
+    prefix: /social
+
+influencing_standalone:
+    resource: "@AppBundle/Resources/config/routing_standalone.yml"
+    prefix: /standalone
+
+influencing_admin:
+    resource: "@AppBundle/Controller/Admin/"
+    type: annotation
+
+influencing_prints_search:
+    resource: "@AppBundle/Controller/PrintsSearchController.php"
+    type: annotation
+
+influencing_instant_creation:
+    resource: "@AppBundle/Controller/InstantCreationController.php"
+    type: annotation
+
+influencing_inbox:
+    resource: "@AppBundle/Controller/InboxController.php"
+    type: annotation
+
+main:
+    path: /
+    defaults: { _controller: 'AppBundle:Home:index', country: '' }
+    options:
+        expose: true
+
+issues_bots_files_remove:
+    path: /bots/images/remove
+    defaults: { _controller: 'AppBundle:Home:removeImagesFilesOfBots' }
+    options:
+        expose: true
+
+getFirstStory:
+    path: /getFirstStory
+    defaults: { _controller: 'AppBundle:Home:getFirstStory' }
+    options:
+        expose: true
+
+getInboxContent:
+    path: /getInboxContent
+    defaults: { _controller: 'AppBundle:Home:getInboxContent' }
+    options:
+        expose: true
+
+getIndustryNewsContent:
+    path: /getIndustryNewsContent
+    defaults: { _controller: 'AppBundle:Home:getIndustryNewsContent'}
+    options:
+        expose: true
+
+filter_is_favourites:
+    path: /filter_is_favourites
+    defaults: { _controller: 'AppBundle:Home:filterIsFavouritesForGetstream'}
+    options:
+        expose: true
+
+getMonitoringContent:
+    path: /getMonitoringContent
+    defaults: { _controller: 'AppBundle:Home:getMonitoringContent'}
+    options:
+        expose: true
+
+getClipsGetstreamContent:
+    path: /getClipsGetstreamContent
+    defaults: { _controller: 'AppBundle:Home:getClipsGetstreamContent'}
+    options:
+        expose: true
+
+main_au:
+    path: /au
+    defaults: { _controller: 'AppBundle:Home:index', country: 'au' }
+    requirements:
+        country:  au|us
+    options:
+        expose: true
+
+manage:
+    path: /manage/user/{id}
+    defaults: { _controller: 'AppBundle:Security:manage', id: 0 }
+    requirements:
+      id: \d+
+
+unmanage:
+    path: /unmanage/user
+    defaults: { _controller: 'AppBundle:Security:resetManage' }
+
+prwire:
+    path: /{country}/prwire
+    defaults: { _controller: 'AppBundle:Home:prwire', country: 'au' }
+    requirements:
+        country:  au|us
+    options:
+        expose: true
+
+trending_announcements:
+    path: /{country}/trending_announcements
+    defaults: { _controller: 'AppBundle:Home:trendingAnnouncements', country: 'au' }
+    requirements:
+        country:  au|us
+    options:
+        expose: true
+
+prwire_get_releases_json:
+    path: /prwire/get-json-releases
+    defaults: { _controller: 'AppBundle:Home:getPrwireReleasesJson' }
+    methods: [GET]
+    options:
+        expose: true
+
+prwire_get_releases:
+    path: /{country}/prwire/get
+    defaults: { _controller: 'AppBundle:Home:getPrwireReleases', country: 'au' }
+    requirements:
+        country: au|us
+    methods: [GET]
+    options:
+        expose: true
+
+get_prwire_releases_for_authenticated:
+    path: /{country}/prwire/authenticated/get
+    defaults: { _controller: 'AppBundle:Home:getPrwireReleasesForAuthenticated', country: 'au'}
+    requirements:
+        country: au|us
+    methods: [GET]
+    options:
+        expose: true
+
+prwire_get_companies:
+    path: /{country}/prwire/companies
+    defaults: { _controller: AppBundle:Home:getPrPersonRepresentCompanies, country: 'au' }
+    requirements:
+        country: au|us
+    options:
+        expose: true
+
+agencies:
+    path: /{country}/agencies/{page}
+    defaults: { _controller: 'AppBundle:Home:agencies', page: 1, country: 'au' }
+    requirements:
+        page:  \d+
+    options:
+      expose: true
+
+get_filters_for_pr_directory:
+    path: /{country}/agencies/get_filters_for_pr_directory
+    defaults: { _controller: 'AppBundle:Home:getFiltersForPrDirectory', country: 'au' }
+    options:
+        expose: true
+
+toggle_is_in_pr_directory:
+    path: /{country}/agencies/toggle_is_in_pr_directory
+    defaults: { _controller: 'AppBundle:Home:toggleIsInPrDirectory', country: 'au' }
+    options:
+        expose: true
+
+freelance:
+    path: /{country}/freelance
+    defaults: { _controller: 'AppBundle:Home:freelance', country: 'au' }
+    options:
+        expose: true
+
+community_freelance:
+    path: community/{community_slug}/freelance
+    defaults: { _controller: 'AppBundle:Home:freelance', community_slug: null }
+    options:
+        expose: true
+
+freelancers_get:
+    path: /{country}/freelancers/get
+    defaults: { _controller: 'AppBundle:Home:freelanceGet', country: 'au' }
+    methods: [GET]
+    options:
+        expose: true
+
+release:
+    path: /{country}/prwire/{slug}
+    defaults: { _controller: 'AppBundle:Home:release', country: 'au' }
+    requirements:
+        country:  au|us
+    options:
+      expose: true
+
+release_views:
+    path: /{country}/prwire/{slug}/views
+    defaults: { _controller: 'AppBundle:Home:setViews', country: 'au' }
+    requirements:
+        country:  au|us
+    options:
+        expose: true
+
+story:
+    path: /{country}/story/{slug}
+    defaults: { _controller: 'AppBundle:Home:story', country: 'au' }
+    requirements:
+        country:  au|us
+    options:
+      expose: true
+
+story_by_id:
+    path: /p/{id}
+    defaults: { _controller: 'AppBundle:Home:oldStory' }
+
+
+news:
+    path:  /{country}/news
+    defaults: { _controller: 'AppBundle:Home:news', country: 'au' }
+    requirements:
+        country:  au|us
+        page:  \d+
+    options:
+        expose: true
+
+get_news:
+    path: /{country}/news/get
+    defaults: { _controller: 'AppBundle:Home:getNews', country: 'au' }
+    requirements:
+        country: au|us
+    options:
+        expose: true
+    methods: [GET]
+
+get_filters_community_news:
+    path: /{country}/news/get_filters
+    defaults: { _controller: 'AppBundle:Home:getFiltersForCommunityNews', country: 'au'}
+    requirements:
+        country: au|us
+    options:
+        expose: true
+    methods: [POST]
+
+get_filters_announcement_prwire:
+    path: /prwire/get_filters
+    defaults : { _controller: 'AppBundle:Home:getFiltersForAnnouncementPrwire'}
+    options:
+        expose: true
+    methods: [POST]
+
+about:
+    path:  /about
+    defaults: { _controller: 'AppBundle:Home:about' }
+
+test:
+    path:  /test
+    defaults: { _controller: 'AppBundle:Home:tester' }
+
+
+postComment:
+    path:  /postComment
+    defaults: { _controller: 'AppBundle:Home:postComment' }
+    options:
+        expose: true
+    methods: [POST]
+
+deleteComment:
+    path:  /deleteComment/{id}
+    defaults: { _controller: 'AppBundle:Home:deleteComment' }
+    requirements:
+        id:  \d+
+    options:
+        expose: true
+    methods: [GET]
+
+exclude_beats_ids:
+    path: /exclude_beats_ids
+    defaults: { _controller: 'AppBundle:Business:excludeBeatsIds' }
+    options:
+        expose: true
+
+get_user_tokens_for_beats:
+    path: /get_user_tokens_for_beats
+    defaults: { _controller: 'AppBundle:Business:getUserTokensForBeats' }
+    options:
+        expose: true
+
+reorder_beats:
+    path: /reorder_beats
+    defaults: { _controller: 'AppBundle:Business:reorderBeatsIds' }
+    options:
+        expose: true
+
+include_beats_ids:
+    path: /include_beats_ids
+    defaults: { _controller: 'AppBundle:Business:includeBeatIds' }
+    options:
+        expose: true
+
+upcoming:
+    path: /upcoming
+    defaults: { _controller: 'AppBundle:Business:getUpcoming' }
+    options:
+        expose: true
+
+get_stream:
+    path: /get_stream
+    defaults: { _controller: 'AppBundle:Stream:getStream' }
+    options:
+        expose: true
+
+get_stream_lite:
+    path: /get_stream_lite
+    defaults: { _controller: 'AppBundle:Stream:getLiteStream' }
+    options:
+        expose: true
+
+latest_comments:
+    path: /latestComments/{limit}
+    defaults: { _controller: 'AppBundle:Home:latestComments', limit: 5 }
+    options:
+        expose: true
+    requirements:
+        limit: \d+
+
+get_freelance_filters:
+    path: /freelance/get/filters
+    defaults: { _controller: 'AppBundle:Home:getFreelanceFilters' }
+    options:
+        expose: true
+
+create_activity:
+    path:  /create_activity
+    defaults: { _controller: 'AppBundle:Stream:createActivity' }
+    options:
+        expose: true
+    methods: [POST]
+
+contact_save_noteworthy:
+    path: /save_noteworthy
+    defaults: { _controller: 'AppBundle:Profile:saveNote' }
+    options:
+      expose: true
+    methods: [POST]
+
+person_save_profile:
+    path: /save_profile
+    defaults: { _controller: 'AppBundle:Profile:saveProfile' }
+    options:
+      expose: true
+
+outlet_page:
+    path: /outlet/{slug}
+    defaults: { _controller: 'AppBundle:Profile:outlet', slug: ''}
+    options:
+        expose: true
+
+private_outlet_page:
+    path: /{accountSlug}/outlets/{slug}
+    defaults: { _controller: 'AppBundle:Profile:hiddenOutlet' }
+    options:
+        expose: true
+
+ckeditor_test:
+    path: /ckeditor_test
+    defaults: { _controller: 'AppBundle:Home:ckeditorTest' }
+
+cross_domain_storage:
+    path: /cross-domain-storage
+    defaults: { _controller: 'AppBundle:Home:crossDomainStorage' }
+    methods: [GET]
+
+insider_main:
+    path: /insider
+    defaults: { _controller: 'AppBundle:Insider:index' }
+    options:
+        expose: true
+
+insider_episodes:
+    path: /insider/episodes
+    defaults: { _controller: 'AppBundle:Insider:getInsiderEpisodes' }
+    options:
+        expose: true
+
+person_page:
+    path:  /{slug}
+    defaults: { _controller: 'AppBundle:Profile:index' }
+    options:
+      expose: true
+
+person_latest_articles:
+    path:  /{id}/articles/latest
+    defaults: { _controller: 'AppBundle:Profile:latestArticles' }
+    options:
+      expose: true
+
+contact_verify:
+    path:  /{slug}/person/verify
+    defaults: { _controller: 'AppBundle:Profile:verifyContact' }
+    options:
+      expose: true
+
+person_page_quarantine_emails_actions:
+    path:  /quarantine-emails-actions/{contactEmailId}/{action}
+    defaults: { _controller: 'AppBundle:Profile:quarantinedEmails' }
+    options:
+      expose: true
+    methods: [POST]
+    requirements:
+        contactEmailId:  \d+
+        action: delete|remove-from-quarantine
+
+private_person_page:
+    path:  /{accountSlug}/contacts/{slug}
+    defaults: { _controller: 'AppBundle:Profile:hiddenPerson' }
+    options:
+      expose: true
+
+get_persons_twitter_followers:
+    path: /twitter-followers/{slug}
+    defaults: { _controller: 'AppBundle:Profile:getPersonsTwitterFollowers' }
+    options:
+        expose: true
+
+social_links:
+    path: /social_links/{id}
+    defaults: { _controller: 'AppBundle:Profile:socialLinks' }
+    requirements:
+        id:  \d+
+    options:
+        expose: true
+
+get_contact_for_previewer:
+    path: /get_contact_for_previewer/{id}
+    defaults: { _controller: 'AppBundle:Profile:getContactForPreviewer' }
+    requirements:
+        id:  \d+
+    options:
+        expose: true
+
+check_slug:
+    path: /check_slug/{slug}
+    defaults: { _controller: 'AppBundle:Home:checkSlug' }
+    requirements:
+    options:
+        expose: true
+    methods: [GET]
+
+update_clipping_url_byline:
+    path: /update_clipping_url_byline/{id}/{type}
+    defaults: { _controller: 'AppBundle:Home:updateOutletClippingUrlsBylines' }
+    requirements:
+        id: \d+
+        type: some_bylines|no_bylines
+    options:
+    methods: [GET]
+
+community_news:
+    path: community/{community_slug}/news/{section}
+    defaults: { _controller: 'AppBundle:Home:communityNews', section: 'all' }
+    options:
+        expose: true
+
+mailing_by_email:
+    path: /share/email
+    defaults: { _controller: 'AppBundle:Home:emailShare' }
+    options:
+        expose: true
+
+influencing_rss_feed:
+    path: /feed/rss
+    defaults: { _controller: AppBundle:Home:rssFeed }
+
+stripe_webhooks:
+    path: /stripe/webhooks
+    defaults: { _controller: AppBundle:Home:stripeWebHooksTarget }
+    methods: [POST]
+
+upgrade_promo:
+    path: /upgrade-promo/{module}
+    defaults: { _controller: AppBundle:Home:upgradePromo }
+    methods: [GET]
+    requirements:
+        module: contacts|monitoring|reports|opportunities|newsrooms|profiles|professional|unlimited
+    options:
+        expose: true
+
+fullcontact_webhook:
+    path: /webhooks/fullcontact
+    defaults: { _controller: AppBundle:Home:receiveFullContactWebHook }
+    methods: [POST]
+    options:
+        expose: true
+
+favourite_create:
+    path: /favourite/create
+    defaults: { _controller: AppBundle:Home:createFavourite }
+    methods: [POST]
+    options:
+        expose: true
+
+favourite_delete:
+    path: /favourite/delete/{id}
+    defaults: { _controller: AppBundle:Home:removeFavourite }
+    methods: [POST]
+    requirements:
+        id: \d+
+    options:
+        expose: true
+
+favorite_title_update:
+    path: /favorite/title_update/{id}
+    defaults: { _controller: AppBundle:Home:updateFavoriteTitle }
+    methods: [POST]
+    requirements:
+        id: \d+
+    options:
+        expose: true
+
+not_found:
+    path: /error/404
+    defaults: { _controller: 'AppBundle:Home:errorPageNotFound' }
+
+contact_remove_from_personal_list:
+    path: /remove/{id}/from/personal_list
+    defaults: { _controller: AppBundle:Home:removeContactFromPersonalList }
+    methods: [POST]
+    requirements:
+        contactId: \d+
+    options:
+        expose: true
+
+print_clip_previewer:
+    path:  /print_clip_previewer/{ids}
+    defaults: { _controller: 'AppBundle:PrintClipPreviewer:article' }
+    options:
+      expose: true
+
+print_page_previewer:
+    path:  /print_page_previewer/{id}
+    defaults: { _controller: 'AppBundle:PrintClipPreviewer:printPagePreview' }
+    requirements:
+        id: \d+
+
+concept_page_routes:
+    resource: "@AppBundle/Controller/ConceptPageController.php"
+    type: annotation
+
+beat_page_routes:
+    resource: "@AppBundle/Resources/config/routing_beat.yml"
+    prefix:   /beat
+
+audio_routes:
+    resource: "@AppBundle/Controller/AudioController.php"
+    type: annotation
+

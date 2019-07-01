@@ -1,0 +1,13 @@
+{
+  "name": "symfony-vue-coreui-project",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "repository": "https://github.com/KilinSight/vue-coreui.git",
+  "author": "Ilya Ukrainskiy <kilinsight@mail.ru>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@coreui/coreui": "2.1.12"
+  }
+}
