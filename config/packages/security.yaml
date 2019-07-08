@@ -1,22 +1,63 @@
+# ================================================================================
+# Security configuration
+# ================================================================================
 security:
-    # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
-    providers:
-        in_memory: { memory: ~ }
+
+    # ---------------------------
+    # Password encoders
+    # ---------------------------
+    encoders:
+        App\Entity\User:
+            algorithm: auto
+            cost: 15
+
+    # ---------------------------
+    # Providers
+    # ---------------------------
+
+
+
+    # ---------------------------
+    # Firewalls
+    # ---------------------------
     firewalls:
+
+        # Developer's area (profiler, debug toolbar, etc.)
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
-        main:
+
+
+        # Authentication section (login, logout, and so on)
+        auth:
+            pattern: ^/api/auth/login
+            stateless: true
             anonymous: true
 
-            # activate different ways to authenticate
-            # https://symfony.com/doc/current/security.html#firewalls-authentication
+            json_login:
+                check_path: /api/auth/login_check
+                success_handler: lexik_jwt_authentication.handler.authentication_success
+                failure_handler: lexik_jwt_authentication.handler.authentication_failure
 
-            # https://symfony.com/doc/current/security/impersonating_user.html
-            # switch_user: true
+            logout:
+                path: /api/security/logout
 
-    # Easy way to control access for large sections of your site
-    # Note: Only the *first* access control that matches will be used
+
+        # API section. Protected by firewall
+#        api:
+#            pattern: ^/api
+#            stateless: true
+#
+#            guard:
+#                provider: main
+#                authenticators:
+#                    - lexik_jwt_authentication.jwt_token_authenticator
+
+
+
+    # ---------------------------
+    # Access control rules
+    # ---------------------------
     access_control:
-        # - { path: ^/admin, roles: ROLE_ADMIN }
-        # - { path: ^/profile, roles: ROLE_USER }
+#        - { path: ^/api/auth,  roles: IS_AUTHENTICATED_ANONYMOUSLY }
+#        - { path: ^/api,       roles: IS_AUTHENTICATED_FULLY }

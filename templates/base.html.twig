@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Influencing - Test</title>
+
+    {# ============================================================== #}
+    {# Stylesheets #}
+    {# ============================================================== #}
+    {% block stylesheets %}
+        {{ encore_entry_link_tags('app') }}
+    {% endblock %}
+
+
+</head>
+<body>
+{# Vue start component #}
+<div id="app"></div>
+
+{# ============================================================== #}
+{# Javascripts #}
+{# ============================================================== #}
+{% block javascripts %}
+    {{ encore_entry_script_tags('app') }}
+{% endblock %}
+
+</body>
+</html>

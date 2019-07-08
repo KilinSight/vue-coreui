@@ -1,3 +1,7 @@
+# ================================================================================
+# Framework Web profiler configuration for test env
+# ================================================================================
+
 web_profiler:
     toolbar: false
     intercept_redirects: false

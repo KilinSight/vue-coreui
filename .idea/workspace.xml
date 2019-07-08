@@ -2,23 +2,250 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="832d7705-7d55-4faa-aa44-90b3b6055973" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/AppBundle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Resources/config/routing.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/home/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avatars/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avatars/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avatars/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avatars/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avatars/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avatars/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avatars/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avatars/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/brand/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/brand/sygnet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo-symbol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/_custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/_ie-fix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/vendors/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/vendors/chart.js/chart.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/_nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/containers/DefaultAside.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/containers/DefaultContainer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/containers/DefaultHeaderDropdownAccnt.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/shared/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/shared/toggle-classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/shared/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/Charts.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/Dashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/Widgets.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/base/Breadcrumbs.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/base/Cards.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/base/Carousels.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/base/Collapses.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/base/Forms.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/base/Jumbotrons.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/base/ListGroups.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/base/Navbars.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/base/Navs.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/base/Paginations.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/base/Popovers.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/base/ProgressBars.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/base/Switches.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/base/Table.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/base/Tables.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/base/Tabs.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/base/Tooltips.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/buttons/BrandButtons.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/buttons/ButtonGroups.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/buttons/Dropdowns.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/buttons/StandardButtons.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/charts/BarExample.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/charts/DoughnutExample.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/charts/LineExample.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/charts/PieExample.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/charts/PolarAreaExample.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/charts/RadarExample.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/dashboard/CalloutChartExample.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/dashboard/CardBarChartExample.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/dashboard/CardLine1ChartExample.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/dashboard/CardLine2ChartExample.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/dashboard/CardLine3ChartExample.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/dashboard/MainChartExample.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/dashboard/SocialBoxChartExample.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/icons/CoreUIIcons.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/icons/Flags.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/icons/FontAwesome.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/icons/SimpleLineIcons.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/notifications/Alerts.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/notifications/Badges.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/notifications/Modals.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/pages/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/pages/Page404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/pages/Page500.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/pages/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/theme/ColorTheme.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/theme/ColorView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/theme/Colors.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/theme/Typography.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/users/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/users/Users.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/users/UsersData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/src/views/widgets/Widget03.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/assets.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/fos_rest.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/prod/webpack_encore.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/webpack_encore.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/config/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/config/php.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/script/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/e2e/custom-assertions/elementCount.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/e2e/specs/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/App.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/containers/DefaultAside.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/containers/DefaultContainer.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/containers/DefaultHeaderDropdownAccnt.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/containers/__snapshots__/DefaultAside.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/containers/__snapshots__/DefaultContainer.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/containers/__snapshots__/DefaultHeaderDropdownAccnt.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/shared/classes.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/shared/toggle-classes.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/shared/utils.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/Charts.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/Dashboard.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/Widgets.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/__snapshots__/Charts.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/__snapshots__/Dashboard.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/__snapshots__/Widgets.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/Breadcrumbs.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/Cards.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/Carousels.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/Collapses.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/Forms.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/Jumbotrons.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/ListGroups.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/Navbars.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/Navs.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/Paginations.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/Popovers.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/ProgressBars.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/Switches.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/Table.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/Tables.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/Tabs.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/Tooltips.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/__snapshots__/Breadcrumbs.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/__snapshots__/Cards.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/__snapshots__/Carousels.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/__snapshots__/Collapses.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/__snapshots__/Forms.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/__snapshots__/Jumbotrons.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/__snapshots__/ListGroups.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/__snapshots__/Navbars.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/__snapshots__/Navs.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/__snapshots__/Paginations.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/__snapshots__/Popovers.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/__snapshots__/ProgressBars.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/__snapshots__/Switches.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/__snapshots__/Table.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/__snapshots__/Tabs.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/base/__snapshots__/Tooltips.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/buttons/BrandButtons.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/buttons/ButtonDropdowns.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/buttons/ButtonGroups.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/buttons/StandardButtons.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/buttons/__snapshots__/BrandButtons.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/buttons/__snapshots__/ButtonDropdowns.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/buttons/__snapshots__/ButtonGroups.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/buttons/__snapshots__/StandardButtons.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/icons/CoreUIIcons.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/icons/Flags.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/icons/FontAwesome.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/icons/SimpleLineIcons.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/icons/__snapshots__/CoreUIIcons.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/icons/__snapshots__/Flags.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/icons/__snapshots__/FontAwesome.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/icons/__snapshots__/SimpleLineIcons.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/notifications/Alerts.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/notifications/Badges.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/notifications/Modals.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/notifications/__snapshots__/Alerts.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/notifications/__snapshots__/Badges.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/notifications/__snapshots__/Modals.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/pages/Login.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/pages/Page404.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/pages/Page500.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/pages/Register.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/pages/__snapshots__/Login.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/pages/__snapshots__/Page404.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/pages/__snapshots__/Page500.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/pages/__snapshots__/Register.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/theme/Colors.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/theme/Typography.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/theme/__snapshots__/Colors.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/theme/__snapshots__/Typography.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/users/User.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/users/Users.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/users/__snapshots__/User.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/views/users/__snapshots__/Users.spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/symfony-vue-coreui-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony-vue-coreui-project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/cache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/dev/monolog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/dev/monolog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/dev/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/dev/routing.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/dev/swiftmailer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/dev/swiftmailer.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/packages/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Migrations/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/swiftmailer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/swiftmailer.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/test/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/test/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/test/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/test/routing.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/test/swiftmailer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/test/swiftmailer.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/test/validator.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/test/validator.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/test/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/test/web_profiler.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/validator.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/validator.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/AppBundle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Migrations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Migrations/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Repository/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/config/routing.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/home/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,34 +254,58 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/templates/base.html.twig">
+        <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            <state relative-caret-position="152">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/HomeController.php">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-              <folding>
-                <element signature="e#70#135#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="145">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppBundle.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_nav.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/vue/src/_nav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/vue/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="babel.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/vue/babel.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
@@ -62,61 +313,132 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routing.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/packages/routing.yaml">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/vue/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/config/routing.yml">
+      <file leaf-file-name="DefaultContainer.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/vue/src/containers/DefaultContainer.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="221">
+              <caret line="57" column="54" lean-forward="true" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
+              <folding>
+                <element signature="e#2186#2211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/vue/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+              <folding>
+                <element signature="e#80#145#0#PHP" expanded="true" />
+                <element signature="e#641#663#1#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/home/index.html.twig">
+        <entry file="file://$PROJECT_DIR$/templates/home/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+              <folding>
+                <element signature="e#12#26#0#Twig" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bundles.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/bundles.php">
+      <file leaf-file-name="routes.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.php">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/vue/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#267#288#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Kernel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/symfony/http-kernel/Kernel.php">
+      <file leaf-file-name="doctrine.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+            <state relative-caret-position="133">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>symfony/templating</find>
+      <find>routes</find>
+      <find>@Route</find>
+      <find>require __DIR__.'/vendor/autoload.php';</find>
+      <find>endor/autoload.p</find>
+      <find>registerPrefixes</find>
+      <find>APP_DEBUG</find>
+      <find>set_error_handler</find>
+      <find>Symfony\Component\Asset\PathPackage;</find>
+      <find>pathPackage = new Pat</find>
+      <find>AssetExtension</find>
+      <find>App\Security\UserProvider</find>
+      <find>lexik_jwt_authentication.handler.authentication_s</find>
+      <find>spaRouting</find>
+      <find>OhMyAudio!</find>
+      <find>vue.config.js</find>
+      <find>Encore</find>
+      <find>ort('@</find>
+      <find>@/_nav</find>
+      <find>@/shared/utils</find>
+      <find>core-js/</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ort('..</replace>
+      <replace>../shared/utils</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -124,15 +446,36 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/templates/Home/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/HomeController.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/config/routes/dev/twig.yaml" />
-        <option value="$PROJECT_DIR$/config/packages/routing.yaml" />
-        <option value="$PROJECT_DIR$/config/bundles.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/HomeController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/home/index.html.twig" />
+        <option value="$PROJECT_DIR$/config/bundles.php" />
+        <option value="$PROJECT_DIR$/config/packages/framework.yaml" />
+        <option value="$PROJECT_DIR$/config/packages/routing.yaml" />
+        <option value="$PROJECT_DIR$/config/bootstrap.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/templates/home/index.html" />
+        <option value="$PROJECT_DIR$/templates/home/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/assets/vue/router/_nav.js" />
+        <option value="$PROJECT_DIR$/assets/vue/views/pages/Dashboard.vue" />
+        <option value="$PROJECT_DIR$/config/routes.yaml" />
+        <option value="$PROJECT_DIR$/assets/vue/.postcssrc.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/assets/vue/src/router/index.js" />
+        <option value="$PROJECT_DIR$/assets/vue/src/App.vue" />
+        <option value="$PROJECT_DIR$/assets/vue/src/views/dashboard/MainChartExample.vue" />
+        <option value="$PROJECT_DIR$/assets/vue/src/views/base/Tables.vue" />
+        <option value="$PROJECT_DIR$/assets/vue/tests/unit/shared/utils.spec.js" />
+        <option value="$PROJECT_DIR$/tests/unit/shared/utils.spec.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/assets/vue/src/main.js" />
+        <option value="$PROJECT_DIR$/assets/vue/package.json" />
+        <option value="$PROJECT_DIR$/assets/vue/src/containers/DefaultContainer.vue" />
       </list>
     </option>
   </component>
@@ -143,10 +486,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/assets/vue/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/assets/vue/package.json" />
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
@@ -257,6 +602,14 @@
       <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/mime" />
       <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/templating" />
+      <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/jsonp-callback-validator" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -271,7 +624,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -282,80 +634,63 @@
             <path>
               <item name="symfony-vue-coreui-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="symfony-vue-coreui-project" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="symfony-vue-coreui-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="symfony-vue-coreui-project" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="symfony-vue-coreui-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="symfony-vue-coreui-project" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vue" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="symfony-vue-coreui-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="symfony-vue-coreui-project" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dev" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="symfony-vue-coreui-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="symfony-vue-coreui-project" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="symfony-vue-coreui-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="symfony-vue-coreui-project" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vue" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="symfony-vue-coreui-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="symfony-vue-coreui-project" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vue" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="containers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="symfony-vue-coreui-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="symfony-vue-coreui-project" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vue" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="symfony-vue-coreui-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="symfony-vue-coreui-project" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="symfony-vue-coreui-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="symfony-vue-coreui-project" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="symfony-vue-coreui-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="symfony-vue-coreui-project" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="symfony-vue-coreui-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony-vue-coreui-project" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="home" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="symfony-vue-coreui-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="symfony-vue-coreui-project" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="symfony-vue-coreui-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony-vue-coreui-project" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="translations" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="symfony-vue-coreui-project" type="b2602c69:ProjectViewProjectNode" />
@@ -365,27 +700,33 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../influencing" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/vendor/ocramius/package-versions/src/PackageVersions/Installer.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ohmyaudio" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/AppBundle/Resources" />
-      <recent name="$PROJECT_DIR$/src/AppBundle" />
+      <recent name="$PROJECT_DIR$/assets/vue" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/AppBundle" />
-      <recent name="$PROJECT_DIR$/src/AppBundle/Resources" />
-      <recent name="$PROJECT_DIR$/src/AppBundle/Resources/views" />
-      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/assets/vue/src" />
+      <recent name="$PROJECT_DIR$/assets/vue/src/router" />
+      <recent name="$PROJECT_DIR$/assets/vue" />
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -410,35 +751,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561965521432</updated>
-      <workItem from="1561965522584" duration="5222000" />
+      <workItem from="1561965522584" duration="18204000" />
+      <workItem from="1562307772581" duration="4480000" />
+      <workItem from="1562545688957" duration="17395000" />
     </task>
+    <task id="LOCAL-00001" summary="in-progress">
+      <created>1561970806655</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561970806655</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5222000" />
+    <option name="totallyTimeSpent" value="40079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SvgViewer" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" weight="0.329718" />
-      <window_info anchor="right" id="Mongo Explorer" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.329718" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="SvgViewer" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.38611713" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20365246" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -450,100 +802,368 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="in-progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="in-progress" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-kernel/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes/dev/twig.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/framework-bundle/Controller/ControllerTrait.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="225" column="41" selection-start-line="225" selection-start-column="41" selection-end-line="225" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="66" lean-forward="true" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="209">
+          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/config/routing.yml">
+    <entry file="file://$PROJECT_DIR$/docs/dev.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="266">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/routing.yaml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="e#80#145#0#PHP" expanded="true" />
+            <element signature="e#641#663#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/router/_nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/views/pages/auth/AuthLoginPage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/views/pages/Grid.vue">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/bundles.php">
+    <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/brand/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/home/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/babel.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="266">
+          <caret line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
+    <entry file="file://$PROJECT_DIR$/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jest.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/.postcssrc.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/e2e/specs/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="33" column="70" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/src/_nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/src/shared/classes.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/babel.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/HomeController.php">
+    <entry file="file://$PROJECT_DIR$/assets/vue/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="209">
+          <caret line="113" column="7" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/vue/types/vue.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#70#135#0#PHP" expanded="true" />
+            <element signature="e#0#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/vue/types/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding>
+            <element signature="e#23#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#7#22#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-kernel/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4123">
+          <caret line="248" column="48" selection-start-line="248" selection-start-column="48" selection-end-line="248" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/src/views/base/Tables.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#1219#1264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/tests/unit/shared/utils.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="63" selection-start-column="63" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/shared/utils.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/src/shared/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#267#288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/src/containers/DefaultAside.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="233" column="40" selection-start-line="233" selection-start-column="40" selection-end-line="233" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/src/views/dashboard/MainChartExample.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#9#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/src/views/base/Breadcrumbs.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vue/src/containers/DefaultContainer.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="57" column="54" lean-forward="true" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
+          <folding>
+            <element signature="e#2186#2211#0" expanded="true" />
           </folding>
         </state>
       </provider>

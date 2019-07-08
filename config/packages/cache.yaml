@@ -1,3 +1,6 @@
+# ================================================================================
+# Framework cache configuration
+# ================================================================================
 framework:
     cache:
         # Put the unique name of your app here: the prefix seed

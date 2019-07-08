@@ -1,23 +1,64 @@
+# ================================================================================
+# Monolog configuration for prod environment
+# ================================================================================
 monolog:
     handlers:
+
+        # mail filter for production
         main:
             type: fingers_crossed
             action_level: error
-            handler: nested
-            excluded_http_codes: [404, 405]
-        nested:
+            handler: file_log
+            excluded_http_codes: [404, 405, 403]
+
+        # store all logs in file
+        file_log:
             type: stream
             path: "%kernel.logs_dir%/%kernel.environment%.log"
             level: debug
+
+        # logging configuration for console commands
         console:
             type: console
             process_psr_3_messages: false
             channels: ["!event", "!doctrine"]
-        deprecation:
-            type: stream
-            path: "%kernel.logs_dir%/%kernel.environment%.deprecations.log"
+
+
+        # filter for deprecation warnings
         deprecation_filter:
             type: filter
             handler: deprecation
             max_level: info
             channels: ["php"]
+
+        # handler for deprecation messages
+        deprecation:
+            type: stream
+            path: "%kernel.logs_dir%/%kernel.environment%.deprecations.log"
+
+
+        # syslog handler
+        syslog_handler:
+            type: syslog
+            level: error
+
+        # filter critical errors to pass them into mail_buffer handler
+        mail_filter:
+            type: fingers_crossed
+            action_level: critical
+            handler: mail_buffer
+
+        # buffer for outgoing email reports
+        mail_buffer:
+            type: buffer
+            handler: mail_swift
+
+        # mailer for critical errors
+        mail_swift:
+            type: swift_mailer
+            from_email: logger@influencing.com
+            to_email: '%env(string:ADMIN_REPORT_EMAIL)%'
+            subject: Influencing BC. Critical error report
+            level: debug
+            formatter: monolog.formatter.html
+            content_type: text/html

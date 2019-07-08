@@ -1,3 +1,6 @@
+# ================================================================================
+# Framework Validator configuration for test env
+# ================================================================================
 framework:
     validation:
         not_compromised_password: false

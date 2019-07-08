@@ -1,16 +1,7 @@
+# ================================================================================
+# Framework Routing common configuration
+# ================================================================================
 framework:
     router:
         strict_requirements: ~
         utf8: true
-app_annotation:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
-    prefix:   /
-
-#@Route(path="/{id}", methods={"GET"}, requirements={"id": "\d+"}, name="edit_announcement_index", options={"expose": true})
-#
-#@Route(path="/{type}/{token}", requirements={"type": "[a-z_]+", "token": "[a-fA-F0-9]{32}"})
-
-fos_js_routing:
-    resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
-

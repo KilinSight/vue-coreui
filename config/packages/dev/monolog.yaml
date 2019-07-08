@@ -1,19 +1,27 @@
+# ================================================================================
+# Monolog configuration for dev environment
+# ================================================================================
 monolog:
+    channels:
+        - app_broadcast_processing_channel
+
     handlers:
         main:
             type: stream
             path: "%kernel.logs_dir%/%kernel.environment%.log"
             level: debug
             channels: ["!event"]
-        # uncomment to get logging in your browser
-        # you may have to allow bigger header sizes in your Web server configuration
-        #firephp:
-        #    type: firephp
-        #    level: info
-        #chromephp:
-        #    type: chromephp
-        #    level: info
+
         console:
             type: console
             process_psr_3_messages: false
             channels: ["!event", "!doctrine", "!console"]
+
+
+        app_broadcast_processing:
+            type: stream
+            path: '%kernel.logs_dir%/%kernel.environment%/broadcast_processing.log'
+            level: debug
+            channels: [app_broadcast_processing_channel]
+
+
